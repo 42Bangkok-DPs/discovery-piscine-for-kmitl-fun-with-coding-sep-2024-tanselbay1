@@ -1,0 +1,22 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+.container {
+   display: flex;
+   width: 100%;
+   border: 1px solid black;
+ }
+ .box {
+   width: 49.86%;
+   height: 98.5vh;
+   display: flex;
+   align-items: center;
+ }
+ #left-box {
+   background-color: #c3c77e;
+   border-right: 1px solid rgba(10, 10, 10, 0.5);
+ }
+ #right-box {
+   background-color: #f9c4af;
+ }
