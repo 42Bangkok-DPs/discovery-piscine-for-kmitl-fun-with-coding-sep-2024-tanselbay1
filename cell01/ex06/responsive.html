@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <style>
+      .container {
+        display: flex;
+        width: 100%;
+        border: 1px solid black;
+        margin-top: 50px;
+      }
+      .box {
+        width: 50%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+      }
+      #left-box {
+        background-color: #c3c77e;
+        border-right: 1px solid rgba(10, 10, 10, 0.5);
+      }
+      #right-box {
+        background-color: #f9c4af;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="container">
+      <div class="box" id="left-box">Left Cell</div>
+      <div class="box" id="right-box">Right Cell</div>
+    </div> -->
+    <table style="width: 100%">
+      <tr class="container">
+        <td class="box" id="left-box">Left Cell</td>
+        <td class="box" id="right-box">Right Cell</td>
+      </tr>
+    </table>
+  </body>
+</html>
